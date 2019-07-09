@@ -105,6 +105,9 @@ span {
     #creditos {
         display: block !important;
     }
+    #creditos {
+        margin-top: 100000px !important;
+    }
     #box_conteudo {
         padding: 0 2cm !important;
     }
