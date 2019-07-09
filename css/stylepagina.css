@@ -14,10 +14,6 @@ span {
     padding-left: 0;
 }
 
-.list-group-item.list-group-item-action.scrollSuave.botaom {
-    display: inline;
-}
-
 @media screen and (max-width: 872px) {
     #topo_menu_lateral,
     #titulo {
@@ -150,6 +146,7 @@ img {
     height: auto !important;
     max-width: 50px !important;
     max-height: 50px !important;
+    display: inline;
 }
 
 #titulo {
