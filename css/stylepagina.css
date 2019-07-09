@@ -301,6 +301,7 @@ p img:hover {
     -moz-transform: scale(1.5) !important;
     -webkit-transform: scale(1.5) !important;
     transform: scale(1.5) !important;
+    z-index: 15;
 }
 
 #darkness {
