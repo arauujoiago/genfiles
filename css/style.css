@@ -1,0 +1,26 @@
+#box_externo {
+    background: #2a4581;
+    padding: 2%;
+}
+
+#box_interno {
+    background: #eeeeee;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+#titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box_texto {
+    text-align: justify;
+}
+
+#box_tiny {
+    background: #4864a0;
+    padding: 1%;
+}

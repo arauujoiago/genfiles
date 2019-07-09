@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Camada_1"
+   data-name="Camada 1"
+   viewBox="0 0 169.15 146.47999"
+   version="1.1"
+   sodipodi:docname="objetivo.svg"
+   width="169.14999"
+   height="146.48"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata49">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="815"
+     inkscape:window-height="480"
+     id="namedview47"
+     showgrid="false"
+     inkscape:zoom="1.2011274"
+     inkscape:cx="-2.8478787"
+     inkscape:cy="73.239998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Camada_1" />
+  <defs
+     id="defs22">
+    <style
+       id="style2">.cls-1{fill:none;}.cls-2{fill:#29235c;}.cls-3{fill:url(#radial-gradient);}.cls-4{clip-path:url(#clip-path);}.cls-5{fill:#ffe006;}.cls-6{fill:#e52421;}</style>
+    <radialGradient
+       id="radial-gradient"
+       cx="130.78999"
+       cy="118.58"
+       r="93.580002"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop4" />
+      <stop
+         offset="0.15"
+         stop-color="#f8f8f8"
+         id="stop6" />
+      <stop
+         offset="0.39"
+         stop-color="#f2f2f2"
+         id="stop8" />
+      <stop
+         offset="0.5"
+         stop-color="#ededed"
+         id="stop10" />
+      <stop
+         offset="0.63"
+         stop-color="#e0dfde"
+         id="stop12" />
+      <stop
+         offset="0.77"
+         stop-color="#cac7c6"
+         id="stop14" />
+      <stop
+         offset="0.81"
+         stop-color="#c2bfbd"
+         id="stop16" />
+    </radialGradient>
+    <clipPath
+       id="clip-path">
+      <polygon
+         class="cls-1"
+         points="91.91,51.23 53.03,118.58 91.91,185.93 169.67,185.93 208.55,118.58 169.67,51.23 "
+         id="polygon19"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <title
+     id="title24">OBJETIVO</title>
+  <polygon
+     class="cls-2"
+     points="46.22,118.58 88.5,191.82 173.08,191.82 215.37,118.58 173.08,45.34 88.5,45.34 "
+     id="polygon26"
+     style="fill:#29235c"
+     transform="translate(-46.22,-45.34)" />
+  <polygon
+     class="cls-3"
+     points="53.03,118.58 91.91,185.93 169.67,185.93 208.55,118.58 169.67,51.23 91.91,51.23 "
+     id="polygon28"
+     style="fill:url(#radial-gradient)"
+     transform="translate(-46.22,-45.34)" />
+  <g
+     class="cls-4"
+     clip-path="url(#clip-path)"
+     id="g44"
+     transform="translate(-46.22,-45.34)">
+    <polygon
+       class="cls-5"
+       points="62.11,162.87 55.91,166.47 38.32,190.29 44.53,186.69 "
+       id="polygon30"
+       style="fill:#ffe006" />
+    <polygon
+       class="cls-5"
+       points="73.87,173.16 75.58,170.84 96.93,141.92 90.72,145.52 69.37,174.44 67.66,176.76 "
+       id="polygon32"
+       style="fill:#ffe006" />
+    <polygon
+       class="cls-5"
+       points="116.14,158.75 120.26,153.17 158.6,101.24 152.39,104.84 114.06,156.77 109.93,162.35 "
+       id="polygon34"
+       style="fill:#ffe006" />
+    <polygon
+       class="cls-5"
+       points="56.5,161.95 65.94,168.52 72.15,164.92 62.71,158.35 60.91,157.09 54.7,160.69 "
+       id="polygon36"
+       style="fill:#ffe006" />
+    <polygon
+       class="cls-5"
+       points="92.35,133.13 105.8,142.5 112.01,138.91 98.56,129.53 93.63,126.11 87.42,129.7 "
+       id="polygon38"
+       style="fill:#ffe006" />
+    <polygon
+       class="cls-5"
+       points="171.08,111.21 172.13,66.57 165.97,64.84 164.88,114.81 "
+       id="polygon40"
+       style="fill:#ffe006" />
+    <polygon
+       class="cls-6"
+       points="164.88,114.81 152.39,104.84 114.06,156.77 109.93,162.35 104.87,157.91 90.72,145.52 69.37,174.44 67.66,176.76 65.55,174.92 55.91,166.47 38.32,190.29 53.82,162.28 54.7,160.69 56.5,161.95 65.94,168.52 85.03,134.04 87.42,129.7 92.35,133.13 105.8,142.5 134.55,90.57 122.27,80.75 165.97,64.84 "
+       id="polygon42"
+       style="fill:#e52421" />
+  </g>
+</svg>
