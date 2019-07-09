@@ -199,7 +199,7 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     width: 100%;
     max-width: 100%;
-    min-height: 220px;
+    min-height: 6.5cm;
     height: auto;
     color: black;
     padding: 20px 50px;
