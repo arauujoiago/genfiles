@@ -332,7 +332,7 @@ p img:hover {
     margin-top: 100000px !important;
 }
 
-#referencias p {
+#referencias.container-fluid.rounded.topico p {
     text-indent: 0 !important;
     text-align: left !important;
 }
