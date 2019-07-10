@@ -330,3 +330,8 @@ p img:hover {
 #creditos {
     margin-top: 100000px !important;
 }
+
+#referencias p {
+    text-indent: 0 !important;
+    text-align: left !important;
+}
