@@ -163,6 +163,7 @@ img {
     font-size: 28px;
     letter-spacing: 1px;
     line-height: 30px;
+    text-indent: 0 !important;
 }
 
 #box_conteudo {
