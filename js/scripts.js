@@ -152,7 +152,7 @@ $(document).ready(function() {
                 document.getElementById("barra-topo").style.top = "0";
             })
         } else {
-            $('#barra-topo').fadeTo(200, 1, function() {
+            $('#barra-topo').fadeTo(200, 0, function() {
                 document.getElementById("barra-topo").style.top = "-100px";
             })
 
