@@ -148,14 +148,9 @@ $(document).ready(function() {
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            $('#barra-topo').fadeTo(50, 1, linear, function() {
-                document.getElementById("barra-topo").style.display = "block";
-            })
+            $('#barra-topo').fadeTo(50, 1, linear)
         } else {
-            $('#barra-topo').fadeTo(50, 1, linear, function() {
-                document.getElementById("barra-topo").style.display = "none";
-            })
-
+            $('#barra-topo').fadeTo(50, 0, linear)
         }
         prevScrollpos = currentScrollPos;
     }
