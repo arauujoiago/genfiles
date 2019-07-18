@@ -76,6 +76,9 @@ span {
         margin-left: 3cm !important;
         font-size: 13px;
     }
+    p {
+        text-indent: 0 !important;
+    }
 }
 
 @media screen and (max-height: 414px) {
@@ -195,7 +198,6 @@ body::-webkit-scrollbar {
     border-color: #2c92ff !important;
 }
 
-
 .balao {
     background: #e4e4e4;
     border-radius: 5px;
@@ -206,8 +208,7 @@ body::-webkit-scrollbar {
     color: black;
     padding: 20px 50px;
     position: relative;
-} 
-
+}
 
 .balaotopico1 {
     background: #e4e4e4;
@@ -321,7 +322,6 @@ p img:hover {
     width: 100%;
     z-index: 5;
 }
-
 
 #citacao {
     text-indent: 0 !important;
