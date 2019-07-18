@@ -148,9 +148,14 @@ $(document).ready(function() {
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            document.getElementById("barra-topo").style.top = "0";
+            $('#barra-topo').fadeTo(200, 1, function() {
+                document.getElementById("barra-topo").style.top = "0";
+            })
         } else {
-            document.getElementById("barra-topo").style.top = "-50px";
+            $('#barra-topo').fadeTo(200, 1, function() {
+                document.getElementById("barra-topo").style.top = "-100px";
+            })
+
         }
         prevScrollpos = currentScrollPos;
     }
