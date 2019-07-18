@@ -147,20 +147,32 @@ $(document).ready(function() {
     if ($(window).width() < 720) {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos == currentScrollPos) {
-                // document.getElementById("barra-topo").style.top = "0";
-                var x = setTimeout(function() {
-                    document.getElementById("barra-topo").style.top = "-100px";
-                }, 2000);
-            } else {
-                clearTimeout(x)
-                document.getElementById("barra-topo").style.top = "0";
-            }
+            clearTimeout(x)
+            document.getElementById("barra-topo").style.top = "0";
+            var x = setTimeout(function() {
+                document.getElementById("barra-topo").style.top = "-100px";
+            }, 2000);
+
+
+            // limpar timeout 
+            // aparece
+            // 
+            // estabelecer timeout para sumir
+            // 
+            // var currentScrollPos = window.pageYOffset;
+            // if (prevScrollpos == currentScrollPos) {
+            //     // document.getElementById("barra-topo").style.top = "0";
+            //     var x = setTimeout(function() {
+            //         document.getElementById("barra-topo").style.top = "-100px";
+            //     }, 2000);
+            // } else {
+            //     clearTimeout(x)
+            //     document.getElementById("barra-topo").style.top = "0";
+            // }
 
 
 
-            prevScrollpos = currentScrollPos;
+            // prevScrollpos = currentScrollPos;
         }
     }
 });
