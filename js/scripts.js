@@ -144,14 +144,16 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            $('#barra-topo').fadeTo(5, 1, "linear")
-        } else {
-            $('#barra-topo').fadeTo(50, 0, "linear")
+    if ($(window).width() > 720) {
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                $('#barra-topo').fadeTo(5, 1, "linear")
+            } else {
+                $('#barra-topo').fadeTo(50, 0, "linear")
+            }
+            prevScrollpos = currentScrollPos;
         }
-        prevScrollpos = currentScrollPos;
     }
 });
