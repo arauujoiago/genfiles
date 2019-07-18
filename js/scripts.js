@@ -148,13 +148,13 @@ $(document).ready(function() {
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            $('#barra-topo').fadeTo(200, 1, function() {
-                document.getElementById("barra-topo").style.top = "0";
-            })
+            // $('#barra-topo').fadeTo(200, 1, function() {
+            document.getElementById("barra-topo").style.top = "0";
+            // })
         } else {
-            $('#barra-topo').fadeTo(200, 0, function() {
-                document.getElementById("barra-topo").style.top = "-100px";
-            })
+            // $('#barra-topo').fadeTo(200, 0, function() {
+            document.getElementById("barra-topo").style.top = "-100px";
+            // })
 
         }
         prevScrollpos = currentScrollPos;
