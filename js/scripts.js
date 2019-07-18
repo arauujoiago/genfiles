@@ -142,3 +142,12 @@ $(document).ready(function() {
         });
     });
 });
+
+$(document).ready(function() {
+    window.onscroll(function() {
+        if (document.getElementById("#barra-topo").style.display == "block")
+            document.getElementById("#barra-topo").style.display = "none";
+        else if (document.getElementById("#barra-topo").style.display == "none")
+            document.getElementById("#barra-topo").style.display = "block";
+    });
+});
