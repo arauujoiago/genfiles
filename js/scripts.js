@@ -144,7 +144,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    if ($(window).width() > 720) {
+    if ($(window).width() < 720) {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
