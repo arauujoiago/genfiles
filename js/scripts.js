@@ -148,16 +148,16 @@ $(document).ready(function() {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             setTimeout(function() {
-                $('#barra-topo').fadeTo(5, 1, "linear")
+                document.getElementById("barra-topo").style.display = "block";
             }, 2000);
-            $('#barra-topo').fadeTo(50, 0, "linear")
-                // var currentScrollPos = window.pageYOffset;
-                // if (prevScrollpos < currentScrollPos) {
-                //     document.getElementById("barra-topo").style.top = "0";
-                // } else {
-                //     setTimeout(function(){
-                //         document.getElementById("barra-topo").style.top = "0";
-                //     }, 2000);
+            document.getElementById("barra-topo").style.display = "none";
+            // var currentScrollPos = window.pageYOffset;
+            // if (prevScrollpos < currentScrollPos) {
+            //     document.getElementById("barra-topo").style.top = "0";
+            // } else {
+            //     setTimeout(function(){
+            //         document.getElementById("barra-topo").style.top = "0";
+            //     }, 2000);
 
 
             // }
