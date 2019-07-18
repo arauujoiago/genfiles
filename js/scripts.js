@@ -148,12 +148,12 @@ $(document).ready(function() {
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            $('#barra-topo').fadeTo("fast", function() {
-                document.getElementById("barra-topo").style.top = "0";
+            $('#barra-topo').fadeTo(50, 1, linear, function() {
+                document.getElementById("barra-topo").style.display = "block";
             })
         } else {
-            $('#barra-topo').fadeTo("fast", function() {
-                document.getElementById("barra-topo").style.top = "-100px";
+            $('#barra-topo').fadeTo(50, 1, linear, function() {
+                document.getElementById("barra-topo").style.display = "none";
             })
 
         }
