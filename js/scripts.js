@@ -148,16 +148,17 @@ $(document).ready(function() {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("barra-topo").style.top = "0";
-                setTimeout(function() {
+            if (prevScrollpos == currentScrollPos) {
+                // document.getElementById("barra-topo").style.top = "0";
+                var x = setTimeout(function() {
                     document.getElementById("barra-topo").style.top = "-100px";
                 }, 2000);
+            } else {
+                clearTimeout(x)
+                document.getElementById("navbar").style.top = "0";
             }
 
-            // else if (prevScrollpos < currentScrollPos){
-            //     document.getElementById("navbar").style.top = "-100px";
-            // }
+
 
             prevScrollpos = currentScrollPos;
         }
