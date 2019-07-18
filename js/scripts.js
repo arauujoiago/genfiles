@@ -147,21 +147,19 @@ $(document).ready(function() {
     if ($(window).width() < 720) {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
-            setTimeout(function() {
-                document.getElementById("barra-topo").style.display = "block";
-            }, 2000);
-            document.getElementById("barra-topo").style.display = "none";
-            // var currentScrollPos = window.pageYOffset;
-            // if (prevScrollpos < currentScrollPos) {
-            //     document.getElementById("barra-topo").style.top = "0";
-            // } else {
-            //     setTimeout(function(){
-            //         document.getElementById("barra-topo").style.top = "0";
-            //     }, 2000);
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("barra-topo").style.top = "0";
+                setTimeout(function() {
+                    document.getElementById("barra-topo").style.top = "-100px";
+                }, 2000);
+            }
 
-
+            // else if (prevScrollpos < currentScrollPos){
+            //     document.getElementById("navbar").style.top = "-100px";
             // }
-            // prevScrollpos = currentScrollPos;
+
+            prevScrollpos = currentScrollPos;
         }
     }
 });
