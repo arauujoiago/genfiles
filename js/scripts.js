@@ -145,7 +145,11 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     if ($(window).width() < 720) {
-        var prevScrollpos = window.pageYOffset;
+        var x = setTimeout(function() {
+            document.getElementById("barra-topo").style.top = "0";
+            console.log("AAAAAAAAAAAAAAA")
+        }, 2000);
+        // var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             clearTimeout(x)
             document.getElementById("barra-topo").style.top = "0";
