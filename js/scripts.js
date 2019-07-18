@@ -144,7 +144,14 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    window.onscroll(function() {
-        document.getElementById("barra-topo").style.display == "none"
-    });
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("barra-topo").style.top = "0";
+        } else {
+            document.getElementById("barra-topo").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
 });
