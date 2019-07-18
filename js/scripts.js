@@ -155,7 +155,7 @@ $(document).ready(function() {
                 }, 2000);
             } else {
                 clearTimeout(x)
-                document.getElementById("navbar").style.top = "0";
+                document.getElementById("barra-topo").style.top = "0";
             }
 
 
