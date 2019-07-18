@@ -134,13 +134,11 @@ function onScroll(event) {
 // console.clear();
 
 $(document).ready(function() {
-    if ($(window).width() > 720) {
-        $('p img').hover(function() {
-            $('#darkness').fadeTo(200, 1);
-        }, function() {
-            $('#darkness').fadeTo(200, 0, function() {
-                $(this).hide();
-            });
+    $('p img').hover(function() {
+        $('#darkness').fadeTo(200, 1);
+    }, function() {
+        $('#darkness').fadeTo(200, 0, function() {
+            $(this).hide();
         });
-    }
+    });
 });
