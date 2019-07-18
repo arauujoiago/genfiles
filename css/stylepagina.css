@@ -120,6 +120,15 @@ span {
     }
 }
 
+@media screen and (min-width: 872px) {
+    p img:hover {
+        -moz-transform: scale(1.5) !important;
+        -webkit-transform: scale(1.5) !important;
+        transform: scale(1.5) !important;
+        z-index: 15 !important;
+    }
+}
+
 span {
     background-color: #fff !important;
     font-family: 'Open Sans', sans-serif !important;
@@ -303,13 +312,6 @@ p img {
     transition: all 0.3s !important;
     z-index: 10 !important;
     position: relative;
-}
-
-p img:hover {
-    -moz-transform: scale(1.5) !important;
-    -webkit-transform: scale(1.5) !important;
-    transform: scale(1.5) !important;
-    z-index: 15 !important;
 }
 
 #darkness {
