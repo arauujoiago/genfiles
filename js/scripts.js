@@ -148,7 +148,7 @@ $(document).ready(function() {
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            $('#barra-topo').fadeTo(50, 1, "linear")
+            $('#barra-topo').fadeTo(5, 1, "linear")
         } else {
             $('#barra-topo').fadeTo(50, 0, "linear")
         }
