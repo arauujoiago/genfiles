@@ -144,6 +144,9 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    var x = setTimeout(function() {
+        document.getElementById("barra-topo").style.display = "0";
+    }, 2000);
     if ($(window).width() < 720) {
         // var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
