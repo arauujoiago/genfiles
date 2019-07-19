@@ -85,6 +85,7 @@ span {
     #menu_lateral {
         overflow-y: scroll;
         height: 82% !important;
+        display: none !important;
     }
     img,
     #tarja {
@@ -237,6 +238,12 @@ body::-webkit-scrollbar {
 #tarja {
     height: auto;
     width: 40%;
+    margin-top: 1cm !important;
+    margin-bottom: 0.6cm !important;
+}
+
+#apresentacao #tarja {
+    margin-top: 0.3cm !important;
 }
 
 #teacher {
@@ -294,11 +301,6 @@ ol {
 
 .balaotopico1 p span {
     background-color: #e4e4e4 !important;
-}
-
-#tarja {
-    margin-top: 1cm !important;
-    margin-bottom: 0.6cm !important;
 }
 
 #creditos {

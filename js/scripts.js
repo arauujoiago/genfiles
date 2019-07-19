@@ -21,13 +21,6 @@ $(document).ready(function() {
     });
 });
 
-//VOLTA PRO TOPO
-$(document).ready(function() {
-    $('#gotopo').click(function() {
-        $('html, body').animate({ scrollTop: 0 }, 'slow');
-    });
-});
-
 $(document).ready(function() {
     $(document).on("scroll", onScroll);
 });
@@ -46,7 +39,6 @@ function onScroll(event) {
     });
 }
 
-
 (function() {
     var delay = false;
 
@@ -58,53 +50,22 @@ function onScroll(event) {
 
         var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
 
-        // WD = -120 QUANDO DESCE
-        // WD = 120 QUANDO SOBE
-
         var a = document.getElementsByClassName('topico');
         if (wd < 0) {
-            //condicao quando desce pra travar o i quando t >= valorTal
-
             for (var i = 0; i < a.length; i++) {
-                // console.log('desce a[' + i + '].getClientRects()[0].top = ' + a[i].getClientRects()[0].top);
-                // console.log('é pra dar break >=80?');
                 var t = a[i].getClientRects()[0].top;
-                // console.log('T de ' + i + '=' + t)
                 if (t >= 80) break;
             }
         } else {
-            //condicao quando sobe pra travar o i
             for (var i = a.length - 1; i >= 0; i--) {
-                // console.log('sobe a[' + i + '].getClientRects()[0].top = ' + a[i].getClientRects()[0].top);
-                // console.log('é pra dar break < -20?');
                 var t = a[i].getClientRects()[0].top;
-                // console.log('T de ' + i + '=' + t);
                 if (t < -20) break;
             }
         }
 
         if (i >= 0 && i < a.length) {
-            // console.log('window: ' + $(window).scrollTop())
-            // console.log('a[' + i + '].offset: ' + a[i].offsetTop)
-            // console.log(a[i].clientHeight)
-            // console.clear();
-            // console.log('|||||||||||||||||||||||||||||');
-            // console.log('Você está no ' + (i - 1))
-            // console.log('Tamanho de  ' + i + ' = ' + a[i].clientHeight)
-            // console.log('posicao no scroll de ' + i + ' = ' + a[i].offsetTop)
-            // console.log('posicao no scroll da tela = ' + $(window).scrollTop())
-            // console.log('Valor para pular(posicao de ' + i + ' - (tamanhode' + i + ' + 600)): ' + (a[i].offsetTop - (a[i - 1].clientHeight + 600)))
-
-            //subindo
+            //SUBINDO
             if (wd > 0) {
-                //     console.log('window: ' + $(window).scrollTop())
-                //     console.log('a[' + i + '].offset: ' + a[i].offsetTop);
-                //     console.log('diferença = ' + ($(window).scrollTop() - a[i].offsetTop));
-                //     console.log('---------------');
-                //     console.log('window: ' + $(window).scrollTop())
-                //     console.log('a[' + (i + 1) + '].offset: ' + a[i + 1].offsetTop);
-                //     console.log('diferença = ' + ($(window).scrollTop() - a[i + 1].offsetTop));
-                //     console.log('|||||||||||||||||||||||||||||');
                 if ($(window).scrollTop() <= (a[i].offsetTop + 250)) {
                     $('html,body').animate({
                         scrollTop: a[i].offsetTop
@@ -116,7 +77,7 @@ function onScroll(event) {
                 }
 
             }
-            //descendo
+            //DESCENDO
             if (wd < 0) {
                 if (a[i - 1].clientHeight < ($('#espaçador').height())) {
                     $('html,body').animate({
@@ -131,7 +92,8 @@ function onScroll(event) {
         }
     });
 })();
-// console.clear();
+
+//ESCURER PAGINA QUANDO PASSAR O MOUSE EM UMA IMAGEM
 
 $(document).ready(function() {
     $('p img').hover(function() {
@@ -143,41 +105,23 @@ $(document).ready(function() {
     });
 });
 
+//ESCONDER BARRA DO TOPO QUANDO ROLAR A TELA NO MOBILE
+
 $(document).ready(function() {
-    var x = setTimeout(function() {
-        document.getElementById("barra-topo").style.display = "0";
-    }, 2000);
+    var flag = 0;
     if ($(window).width() < 720) {
-        // var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
-            if (x) {
-                clearTimeout(x)
-            }
             document.getElementById("barra-topo").style.top = "0";
-            x = setTimeout(function() {
-                document.getElementById("barra-topo").style.display = "-100px";
-            }, 2000);
+            if (flag == 0) {
+                var x = setTimeout(function() {
+                    if (!(document.getElementById("menu_lateral").style["display"] == "block")) {
+                        document.getElementById("barra-topo").style.top = "-70px";
+                    }
+                    flag = 0;
+                }, 2000);
+            }
+            flag = 1;
 
-
-            // limpar timeout 
-            // aparece
-            // 
-            // estabelecer timeout para sumir
-            // 
-            // var currentScrollPos = window.pageYOffset;
-            // if (prevScrollpos == currentScrollPos) {
-            //     // document.getElementById("barra-topo").style.top = "0";
-            //     var x = setTimeout(function() {
-            //         document.getElementById("barra-topo").style.top = "-100px";
-            //     }, 2000);
-            // } else {
-            //     clearTimeout(x)
-            //     document.getElementById("barra-topo").style.top = "0";
-            // }
-
-
-
-            // prevScrollpos = currentScrollPos;
         }
     }
 });
