@@ -145,16 +145,14 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     if ($(window).width() < 720) {
-        var x = setTimeout(function() {
-            document.getElementById("barra-topo").style.top = "0";
-            console.log("AAAAAAAAAAAAAAA")
-        }, 2000);
         // var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
-            clearTimeout(x)
+            if (x) {
+                clearTimeout(x)
+            }
             document.getElementById("barra-topo").style.top = "0";
-            var x = setTimeout(function() {
-                document.getElementById("barra-topo").style.top = "-100px";
+            x = setTimeout(function() {
+                document.getElementById("barra-topo").style.display = "-100px";
             }, 2000);
 
 
