@@ -254,7 +254,7 @@ body::-webkit-scrollbar {
 }
 
 #espaçador {
-    min-height: -webkit-fill-available;
+    min-height: 65vh;
 }
 
 p {
