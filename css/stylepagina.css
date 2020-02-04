@@ -20,15 +20,15 @@ span {
 }
 
 .col-2 {
-  flex: 0 0 8.333333% !important;
-  max-width: 8.333333% !important;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
 }
 
 #topo_menu_lateral,
 #menu_lateral,
 #menu_lateral_fundo {
-  flex: 0 0 16.666667% !important;
-  max-width: 16.666667% !important;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
 }
 
 #menu_lateral {
