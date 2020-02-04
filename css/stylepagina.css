@@ -141,7 +141,8 @@ span {
 }
 
 #topo_menu_lateral,
-#menu_lateral {
+#menu_lateral,
+#menu_lateral_fundo {
   flex: 0 0 16.666667% !important;
   max-width: 16.666667% !important;
 }
