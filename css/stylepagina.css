@@ -305,6 +305,10 @@ p img {
   p {
     text-indent: 0 !important;
   }
+  .col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
 }
 
 @media screen and (max-height: 414px) {
