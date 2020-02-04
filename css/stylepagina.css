@@ -9,337 +9,342 @@
 #tirateima,
 #leituracomplementar,
 span {
-    font-family: 'Open Sans', sans-serif;
-    padding-right: 0;
-    padding-left: 0;
+  font-family: "Open Sans", sans-serif;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 872px) {
-    #topo_menu_lateral,
-    #titulo {
-        display: none !important;
-    }
-    #barra-topo {
-        background-color: #fff !important;
-    }
-    #logo_mobile {
-        display: flex !important;
-    }
-    #menu_lateral {
-        max-width: 100% !important;
-        width: 100% !important;
-        overflow-y: scroll !important;
-        display: none;
-        height: 90% !important;
-    }
-    #menu_lateral_fundo {
-        display: none !important;
-    }
-    #box_conteudo {
-        padding: 0 2% !important;
-        background-color: #fff !important;
-        text-indent: 0 !important;
-    }
-    img,
-    #tarja {
-        max-width: 100% !important;
-        width: 100% !important;
-        height: auto;
-        text-indent: 0;
-        display: block;
-    }
-    #espaçador {
-        display: none;
-    }
-    .balaotopico1,
-    .balaotopico2 {
-        margin: 0 !important;
-    }
-    #apresentacao,
-    #desafio,
-    #objetivo,
-    #referencia,
-    #infografico,
-    #conteudo,
-    #finalizando,
-    #autoavaliacao,
-    #tirateima,
-    #leituracomplementar,
-    span {
-        padding-right: 0.3cm;
-        padding-left: 0.3cm;
-    }
-    #citacao {
-        text-indent: 0 !important;
-        color: black;
-        line-height: 0.5cm;
-        margin-left: 3cm !important;
-        font-size: 13px;
-    }
-    p {
-        text-indent: 0 !important;
-    }
+  #topo_menu_lateral,
+  #titulo {
+    display: none !important;
+  }
+  #barra-topo {
+    background-color: #fff !important;
+  }
+  #logo_mobile {
+    display: flex !important;
+  }
+  #menu_lateral {
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-y: scroll !important;
+    display: none;
+    height: 90% !important;
+  }
+  #menu_lateral_fundo {
+    display: none !important;
+  }
+  #box_conteudo {
+    padding: 0 2% !important;
+    background-color: #fff !important;
+    text-indent: 0 !important;
+  }
+  img,
+  #tarja {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto;
+    text-indent: 0;
+    display: block;
+  }
+  #espaçador {
+    display: none;
+  }
+  .balaotopico1,
+  .balaotopico2 {
+    margin: 0 !important;
+  }
+  #apresentacao,
+  #desafio,
+  #objetivo,
+  #referencia,
+  #infografico,
+  #conteudo,
+  #finalizando,
+  #autoavaliacao,
+  #tirateima,
+  #leituracomplementar,
+  span {
+    padding-right: 0.3cm;
+    padding-left: 0.3cm;
+  }
+  #citacao {
+    text-indent: 0 !important;
+    color: black;
+    line-height: 0.5cm;
+    margin-left: 3cm !important;
+    font-size: 13px;
+  }
+  p {
+    text-indent: 0 !important;
+  }
 }
 
 @media screen and (max-height: 414px) {
-    #menu_lateral {
-        overflow-y: scroll;
-        height: 82% !important;
-        display: none !important;
-    }
-    img,
-    #tarja {
-        max-width: 100% !important;
-        width: 100% !important;
-        height: auto;
-        display: block;
-    }
+  #menu_lateral {
+    overflow-y: scroll;
+    height: 82% !important;
+    display: none !important;
+  }
+  img,
+  #tarja {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto;
+    display: block;
+  }
 }
 
 @media print {
-    #espaçador,
-    #menu_lateral,
-    #logo,
-    #barra-topo,
-    #menu_lateral_fundo {
-        display: none;
-    }
-    #painel,
-    #rodape,
-    #creditos {
-        display: block !important;
-    }
-    #creditos {
-        margin-top: 100000px !important;
-    }
-    #box_conteudo {
-        padding: 0 2cm !important;
-    }
-    #tarja {
-        margin-top: 1cm !important;
-        margin-bottom: 0.6cm !important;
-    }
+  #espaçador,
+  #menu_lateral,
+  #logo,
+  #barra-topo,
+  #menu_lateral_fundo {
+    display: none;
+  }
+  #painel,
+  #rodape,
+  #creditos {
+    display: block !important;
+  }
+  #creditos {
+    margin-top: 100000px !important;
+  }
+  #box_conteudo {
+    padding: 0 2cm !important;
+  }
+  #tarja {
+    margin-top: 1cm !important;
+    margin-bottom: 0.6cm !important;
+  }
 }
 
 @media screen and (min-width: 872px) {
-    p img:hover {
-        -moz-transform: scale(1.5) !important;
-        -webkit-transform: scale(1.5) !important;
-        transform: scale(1.5) !important;
-        z-index: 15 !important;
-    }
+  p img:hover {
+    -moz-transform: scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
+    z-index: 15 !important;
+  }
 }
 
 span {
-    background-color: #fff !important;
-    font-family: 'Open Sans', sans-serif !important;
+  background-color: #fff !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.col-2 {
+  flex: 0 0 8.333333% !important;
+  max-width: 8.333333% !important;
 }
 
 #menu_lateral {
-    position: fixed;
-    z-index: 100;
-    padding: 0;
-    overflow-y: scroll;
-    height: 90%;
+  position: fixed;
+  z-index: 100;
+  padding: 0;
+  overflow-y: scroll;
+  height: 90%;
 }
 
 #logo {
-    max-width: 100%;
-    height: 66px;
+  max-width: 100%;
+  height: 66px;
 }
 
 h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 img {
-    max-width: 50%;
-    height: auto;
+  max-width: 50%;
+  height: auto;
 }
 
 #icon_menu {
-    width: auto !important;
-    height: auto !important;
-    max-width: 50px !important;
-    max-height: 50px !important;
-    display: inline;
+  width: auto !important;
+  height: auto !important;
+  max-width: 50px !important;
+  max-height: 50px !important;
+  display: inline;
 }
 
 #titulo {
-    justify-content: center;
+  justify-content: center;
 }
 
 #titulo_texto {
-    margin-bottom: 0 !important;
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: bold;
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    text-indent: 0 !important;
+  margin-bottom: 0 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  text-indent: 0 !important;
 }
 
 #box_conteudo {
-    padding: 0 5%;
-    background-color: #fff !important;
-    text-indent: 1.25cm;
-    line-height: 1.5em;
-    word-wrap: break-word;
+  padding: 0 5%;
+  background-color: #fff !important;
+  text-indent: 1.25cm;
+  line-height: 1.5em;
+  word-wrap: break-word;
 }
 
 #menu_lateral::-webkit-scrollbar,
 body::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
 
 .active {
-    z-index: 1 !important;
-    color: white !important;
-    text-decoration: none !important;
-    background-color: #007bff !important;
-    border-color: #007bff !important;
+  z-index: 1 !important;
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
 }
 
 .list-group-item-action:hover {
-    z-index: 1 !important;
-    color: white !important;
-    text-decoration: none !important;
-    background-color: #2c92ff !important;
-    border-color: #2c92ff !important;
+  z-index: 1 !important;
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #2c92ff !important;
+  border-color: #2c92ff !important;
 }
 
 .balao {
-    background: #e4e4e4;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 100%;
-    min-height: 6.5cm;
-    height: auto;
-    color: black;
-    padding: 20px 50px;
-    position: relative;
+  background: #e4e4e4;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+  min-height: 6.5cm;
+  height: auto;
+  color: black;
+  padding: 20px 50px;
+  position: relative;
 }
 
 .balaotopico1 {
-    background: #e4e4e4;
-    border-radius: 0;
-    width: auto;
-    height: auto;
-    color: black;
-    padding: 20px;
-    position: relative;
-    margin: -14px auto !important;
-    border: 3px solid;
-    border-color: #24397d;
-    margin-bottom: 50px !important;
-    border-radius: 9px;
+  background: #e4e4e4;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  color: black;
+  padding: 20px;
+  position: relative;
+  margin: -14px auto !important;
+  border: 3px solid;
+  border-color: #24397d;
+  margin-bottom: 50px !important;
+  border-radius: 9px;
 }
 
 #tarja {
-    height: auto;
-    width: 40%;
-    margin-top: 1cm !important;
-    margin-bottom: 0.6cm !important;
+  height: auto;
+  width: 40%;
+  margin-top: 1cm !important;
+  margin-bottom: 0.6cm !important;
 }
 
 #apresentacao #tarja {
-    margin-top: 0.3cm !important;
+  margin-top: 0.3cm !important;
 }
 
 #teacher {
-    max-width: 100% !important;
-    float: left;
-    margin: 0 25px 0 0;
-    min-height: 220px;
+  max-width: 100% !important;
+  float: left;
+  margin: 0 25px 0 0;
+  min-height: 220px;
 }
 
 #espaçador {
-    min-height: 85vh;
+  min-height: 85vh;
 }
 
 p {
-    text-indent: 1.25cm;
-    color: black;
-    line-height: 1.5pc;
+  text-indent: 1.25cm;
+  color: black;
+  line-height: 1.5pc;
 }
 
 li {
-    text-indent: 0 !important;
-    color: black;
+  text-indent: 0 !important;
+  color: black;
 }
 
 ol {
-    padding-inline-start: 1.25cm;
-    color: black;
-    line-height: 2;
+  padding-inline-start: 1.25cm;
+  color: black;
+  line-height: 2;
 }
 
 #pag2 {
-    margin: 100px 0px 1000px 0;
+  margin: 100px 0px 1000px 0;
 }
 
 #titulo_pag2 {
-    color: #18429d;
-    margin-top: 30px;
+  color: #18429d;
+  margin-top: 30px;
 }
 
 #painel {
-    display: none;
-    border-width: 3px;
-    border-color: black;
-    margin: 0.7cm 1.7cm 1cm 1.7cm;
+  display: none;
+  border-width: 3px;
+  border-color: black;
+  margin: 0.7cm 1.7cm 1cm 1.7cm;
 }
 
 #rodape {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    font-size: 12px !important;
-    display: none;
-    margin: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 12px !important;
+  display: none;
+  margin: 5px;
 }
 
 .balaotopico1 p span {
-    background-color: #e4e4e4 !important;
+  background-color: #e4e4e4 !important;
 }
 
 #creditos {
-    display: none;
+  display: none;
 }
 
 p img {
-    max-width: 100% !important;
-    -moz-transition: all 0.3s !important;
-    -webkit-transition: all 0.3s !important;
-    transition: all 0.3s !important;
-    z-index: 10 !important;
-    position: relative;
+  max-width: 100% !important;
+  -moz-transition: all 0.3s !important;
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+  z-index: 10 !important;
+  position: relative;
 }
 
 #darkness {
-    background: rgba(0, 0, 0, 0.5);
-    display: none;
-    height: 9999999999px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 5;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 9999999999px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
 
 #citacao {
-    text-indent: 0 !important;
-    color: black;
-    line-height: 0.5cm;
-    margin-left: 4cm;
-    font-size: 13px;
+  text-indent: 0 !important;
+  color: black;
+  line-height: 0.5cm;
+  margin-left: 4cm;
+  font-size: 13px;
 }
 
 #creditos {
-    margin-top: 100000px !important;
+  margin-top: 100000px !important;
 }
 
 #referencia.container-fluid.rounded.topico p {
-    text-indent: 0 !important;
-    text-align: left !important;
+  text-indent: 0 !important;
+  text-align: left !important;
 }
