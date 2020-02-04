@@ -14,122 +14,6 @@ span {
   padding-left: 0;
 }
 
-@media screen and (max-width: 872px) {
-  #topo_menu_lateral,
-  #titulo {
-    display: none !important;
-  }
-  #barra-topo {
-    background-color: #fff !important;
-  }
-  #logo_mobile {
-    display: flex !important;
-  }
-  #menu_lateral {
-    max-width: 100% !important;
-    width: 100% !important;
-    overflow-y: scroll !important;
-    display: none;
-    height: 90% !important;
-  }
-  #menu_lateral_fundo {
-    display: none !important;
-  }
-  #box_conteudo {
-    padding: 0 2% !important;
-    background-color: #fff !important;
-    text-indent: 0 !important;
-  }
-  img,
-  #tarja {
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto;
-    text-indent: 0;
-    display: block;
-  }
-  #espaçador {
-    display: none;
-  }
-  .balaotopico1,
-  .balaotopico2 {
-    margin: 0 !important;
-  }
-  #apresentacao,
-  #desafio,
-  #objetivo,
-  #referencia,
-  #infografico,
-  #conteudo,
-  #finalizando,
-  #autoavaliacao,
-  #tirateima,
-  #leituracomplementar,
-  span {
-    padding-right: 0.3cm;
-    padding-left: 0.3cm;
-  }
-  #citacao {
-    text-indent: 0 !important;
-    color: black;
-    line-height: 0.5cm;
-    margin-left: 3cm !important;
-    font-size: 13px;
-  }
-  p {
-    text-indent: 0 !important;
-  }
-}
-
-@media screen and (max-height: 414px) {
-  #menu_lateral {
-    overflow-y: scroll;
-    height: 82% !important;
-    display: none !important;
-  }
-  img,
-  #tarja {
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto;
-    display: block;
-  }
-}
-
-@media print {
-  #espaçador,
-  #menu_lateral,
-  #logo,
-  #barra-topo,
-  #menu_lateral_fundo {
-    display: none;
-  }
-  #painel,
-  #rodape,
-  #creditos {
-    display: block !important;
-  }
-  #creditos {
-    margin-top: 100000px !important;
-  }
-  #box_conteudo {
-    padding: 0 2cm !important;
-  }
-  #tarja {
-    margin-top: 1cm !important;
-    margin-bottom: 0.6cm !important;
-  }
-}
-
-@media screen and (min-width: 872px) {
-  p img:hover {
-    -moz-transform: scale(1.5) !important;
-    -webkit-transform: scale(1.5) !important;
-    transform: scale(1.5) !important;
-    z-index: 15 !important;
-  }
-}
-
 span {
   background-color: #fff !important;
   font-family: "Open Sans", sans-serif !important;
@@ -354,4 +238,120 @@ p img {
 #referencia.container-fluid.rounded.topico p {
   text-indent: 0 !important;
   text-align: left !important;
+}
+
+@media screen and (max-width: 872px) {
+  #topo_menu_lateral,
+  #titulo {
+    display: none !important;
+  }
+  #barra-topo {
+    background-color: #fff !important;
+  }
+  #logo_mobile {
+    display: flex !important;
+  }
+  #menu_lateral {
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-y: scroll !important;
+    display: none;
+    height: 90% !important;
+  }
+  #menu_lateral_fundo {
+    display: none !important;
+  }
+  #box_conteudo {
+    padding: 0 2% !important;
+    background-color: #fff !important;
+    text-indent: 0 !important;
+  }
+  img,
+  #tarja {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto;
+    text-indent: 0;
+    display: block;
+  }
+  #espaçador {
+    display: none;
+  }
+  .balaotopico1,
+  .balaotopico2 {
+    margin: 0 !important;
+  }
+  #apresentacao,
+  #desafio,
+  #objetivo,
+  #referencia,
+  #infografico,
+  #conteudo,
+  #finalizando,
+  #autoavaliacao,
+  #tirateima,
+  #leituracomplementar,
+  span {
+    padding-right: 0.3cm;
+    padding-left: 0.3cm;
+  }
+  #citacao {
+    text-indent: 0 !important;
+    color: black;
+    line-height: 0.5cm;
+    margin-left: 3cm !important;
+    font-size: 13px;
+  }
+  p {
+    text-indent: 0 !important;
+  }
+}
+
+@media screen and (max-height: 414px) {
+  #menu_lateral {
+    overflow-y: scroll;
+    height: 82% !important;
+    display: none !important;
+  }
+  img,
+  #tarja {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto;
+    display: block;
+  }
+}
+
+@media print {
+  #espaçador,
+  #menu_lateral,
+  #logo,
+  #barra-topo,
+  #menu_lateral_fundo {
+    display: none;
+  }
+  #painel,
+  #rodape,
+  #creditos {
+    display: block !important;
+  }
+  #creditos {
+    margin-top: 100000px !important;
+  }
+  #box_conteudo {
+    padding: 0 2cm !important;
+  }
+  #tarja {
+    margin-top: 1cm !important;
+    margin-bottom: 0.6cm !important;
+  }
+}
+
+@media screen and (min-width: 872px) {
+  p img:hover {
+    -moz-transform: scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
+    z-index: 15 !important;
+  }
 }
